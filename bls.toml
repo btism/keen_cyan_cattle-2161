@@ -1,4 +1,4 @@
-name = "template_name"
+name = "keen_cyan_cattle-2161"
 version = "1.0.0"
 
 [deployment]
@@ -7,10 +7,10 @@ nodes = 1
 
 [build]
 dir = "build"
-entry = "template_name-debug.wasm"
+entry = "keen_cyan_cattle-2161-debug.wasm"
 command = "npm run build:debug"
 
 [build_release]
 dir = "build"
-entry = "template_name-release.wasm"
+entry = "keen_cyan_cattle-2161-release.wasm"
 command = "npm run build:release"
